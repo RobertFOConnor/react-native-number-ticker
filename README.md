@@ -1,3 +1,5 @@
+![](logo.jpg)
+
 # react-native-number-ticker
 A simple, lightweight and easy-to-use ticker component for natively animating smooth ticker numbers.
 
