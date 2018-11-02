@@ -4,12 +4,16 @@ A simple, lightweight and easy-to-use ticker component for natively animating sm
 ![](preview-gif.gif)
 
 
-## Example usage: 
+### Installation: 
+```
+npm install react-native-number-ticker
+```
 
+### Example usage:
 ```javascript
 <NumberTicker
-   textSize={40}
    number={34.98}
+   textSize={40}
    duration={1500}
    textStyle={{fontWeight: 'bold', color: 'white'}}
 />
