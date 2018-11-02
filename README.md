@@ -14,6 +14,13 @@ yarn add react-native-number-ticker
 ```
 
 ### Example usage:
+
+First, import the component
+
+```javascript
+import NumberTicker from 'react-native-number-ticker';
+```
+and now it's ready to use in your project!
 ```javascript
 <NumberTicker
    number={34.98}
@@ -22,3 +29,4 @@ yarn add react-native-number-ticker
    textStyle={{fontWeight: 'bold', color: 'white'}}
 />
 ```
+Enjoy making your app look nice and fancy with animated numeric displays! 👌
