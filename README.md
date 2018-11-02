@@ -8,6 +8,10 @@ A simple, lightweight and easy-to-use ticker component for natively animating sm
 ```
 npm install react-native-number-ticker
 ```
+or if you are using yarn
+```
+yarn add react-native-number-ticker
+```
 
 ### Example usage:
 ```javascript
