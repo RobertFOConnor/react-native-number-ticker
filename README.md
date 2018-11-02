@@ -1,4 +1,4 @@
-# react-native-number-ticker
+# react-native-number-ticker ![](https://badge.fury.io/js/react-native-number-ticker.svg)
 A simple, lightweight and easy-to-use ticker component for natively animating smooth ticker numbers.
 
 ![](preview-gif.gif)
