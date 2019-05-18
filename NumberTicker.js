@@ -13,6 +13,7 @@ const NumberTicker = ({style, textSize = 35, textStyle, number, duration}) => {
             }
             return (
                 <TextTicker
+                    key={data}
                     textSize={textSize}
                     textStyle={textStyle}
                     targetNumber={parseFloat(data, 10)}
