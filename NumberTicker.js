@@ -5,15 +5,17 @@ import PropTypes from "prop-types";
 const NumberTicker = ({style, textSize = 35, textStyle, number, duration}) => {
 
     const mapToDigits = () => {
-        return (number + '').split('').map((data) => {
+        const numberString = String(number);
+        return (numberString).split('').map((data, index) => {
+            const key = `${data}-${numberString.length - index}`;
             if (data === '.' || data === ',') {
                 return (
-                    <Text key={data} style={[textStyle, {fontSize: textSize}]}>{data}</Text>
+                    <Text key={key} style={[textStyle, {fontSize: textSize}]}>{data}</Text>
                 );
             }
             return (
                 <TextTicker
-                    key={data}
+                    key={key}
                     textSize={textSize}
                     textStyle={textStyle}
                     targetNumber={parseFloat(data, 10)}
